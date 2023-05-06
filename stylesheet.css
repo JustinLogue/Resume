@@ -1,7 +1,10 @@
 .wrapper{
-    margin: 0 10%;
+    margin: 20px 10%;
 }
 
 .header > img{
     height: 150px;
+}
+.header{
+    display: flex;
 }
