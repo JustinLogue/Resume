@@ -2,9 +2,26 @@
     margin: 20px 10%;
 }
 
-.header > img{
+.title > img{
+    height: 150px;
+    float: right;
+}
+
+.title {
+    text-align: center;
     height: 150px;
 }
 .header{
-    display: flex;
+
+    align-items: rows;
 }
+
+.showme >ul >li{
+    display: none;
+    margin: 3px;
+}
+
+.showme:hover >ul >li{
+    display: list-item;
+}
+
